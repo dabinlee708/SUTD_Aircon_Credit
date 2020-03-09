@@ -5,7 +5,7 @@ credit_wallet="https://nus-utown.evs.com.sg/SUTDMain/viewMeterCreditServlet"
 login="https://nus-utown.evs.com.sg/SUTDMain/loginServlet"
 log_val = dict(
 				txtLoginId ='20000596',
-				txtPassword='chwb5278')
+				txtPassword='IF YOU ARE LOOKING FOR PW, YOU HAVE FAILED')
 s=requests.session()
 r=s.post(login,data=log_val)
 r=s.get(credit_wallet)
